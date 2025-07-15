@@ -30,3 +30,31 @@ pagamento_p_porcao
 
 # Ou seja, pagaríamos 100 u.c.p.
 
+# %%
+A = np.array([
+    [1, 2, 3],
+    [2, 1, -1]
+])
+
+B = np.array([
+    [-2, 0, 1],
+    [3, 0, -1]
+])
+
+C = np.array([
+    [-1, 2, 4]
+])
+
+D = np.array([
+    [2, -1]
+])
+
+# Encontre:
+# a) A + B
+# b) A * C
+# c) B * C
+# d) C * D
+# e) D * A
+# f) D * B
+# g) -A
+# h) -D
