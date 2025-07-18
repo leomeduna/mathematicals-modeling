@@ -58,3 +58,17 @@ D = np.array([
 # f) D * B
 # g) -A
 # h) -D
+
+# %%
+print(A + B)
+# %%
+print(A * C)
+# %%
+print(B * C)
+# %%
+#print(C * D)
+# %%
+#print(D * A)
+# %%
+#print(D * B)
+
