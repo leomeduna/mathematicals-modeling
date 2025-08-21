@@ -1,4 +1,4 @@
-# mathematicals-playgrounds
+# mathematicals-modeling
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
@@ -10,7 +10,7 @@
 
 ## 📚 Visão Geral
 
-Este repositório, **`mathematicals-playgrounds`**, é o meu espaço dedicado à exploração e ao aprendizado aprofundado de conceitos matemáticos fundamentais. Meu objetivo principal é ir além do uso de bibliotecas de alto nível e **implementar algoritmos e métodos de Modelagens Matemáticas, pesquisa operacional simulando cenários, revolvendo problemas de regressões e otimizações e criando modelos estruturados, bem como traduzir problemas de negócios em tomadas de decisões eficientes com a aplicação de modelos matemáticos com foco na resolução de problemas de negócios baseados no livro: "Mathematical Modeling for Business Analytics" do Autor William P. Fox, 2011.**
+Este repositório, **`mathematicals-modeling`**, é o meu espaço dedicado à exploração e ao aprendizado aprofundado de conceitos matemáticos fundamentais. Meu objetivo principal é ir além do uso de bibliotecas de alto nível e **implementar algoritmos e métodos de Modelagens Matemáticas, pesquisa operacional simulando cenários, revolvendo problemas de regressões e otimizações e criando modelos estruturados, bem como traduzir problemas de negócios em tomadas de decisões eficientes com a aplicação de modelos matemáticos com foco na resolução de problemas de negócios baseados no livro: "Mathematical Modeling for Business Analytics" do Autor William P. Fox, 2011.**
 
 É um "parque de diversões" numérico e computacional, onde a teoria e aplicação matemática ganha vida através do código.
 
@@ -53,7 +53,7 @@ O repositório está organizado por disciplinas matemáticas, e cada seção con
     * Regressão Linear, Múltipla e Não Linear
 * **Sistemas Dinâmicos Discretos:**
     * Modelagem de Crescimento e Mudança
-    * omportamento de Longo Prazo de Sistemas
+    * Comportamento de Longo Prazo de Sistemas
 * **Modelagem de Simulação:**
     * Simulação de Monte Carlo
     * Simulação de Comportamento Probabilístico
@@ -75,7 +75,7 @@ Para explorar o conteúdo ou replicar as implementações:
 
 1.  **Clone o Repositório:**
     ```bash
-    git clone [https://github.com/leomeduna/mathematicals-playgrounds.git](https://github.com/leomeduna/mathematicals-playgrounds.git)    
+    git clone [https://github.com/leomeduna/mathematicals-modeling.git](https://github.com/leomeduna/mathematicals-playgrounds.git)    
     cd mathematicals-playgrounds
     ```
 2.  **Crie e Ative um Ambiente Virtual (Recomendado):**
@@ -92,7 +92,7 @@ Para explorar o conteúdo ou replicar as implementações:
     ```
 4.  **Navegue e Execute:** Explore os diretórios e execute os scripts ou notebooks Jupyter (`.py` ou `.ipynb`) para ver as implementações em ação.
 
-Sinta-se à vontade para abrir [Issues](https://github.com/leomeduna/mathematicals-playgrounds/issues) se tiver sugestões, dúvidas ou quiser discutir alguma implementação. Pull Requests com melhorias ou novas abordagens para os conceitos existentes também são bem-vindos!
+Sinta-se à vontade para abrir [Issues](https://github.com/leomeduna/mathematicals-modeling/issues) se tiver sugestões, dúvidas ou quiser discutir alguma implementação. Pull Requests com melhorias ou novas abordagens para os conceitos existentes também são bem-vindos!
 
 ## 📚 Referência:
 
