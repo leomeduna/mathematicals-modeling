@@ -10,9 +10,9 @@
 
 ## 📚 Visão Geral
 
-Este repositório, **`mathematicals-playgrounds`**, é o meu espaço dedicado à exploração e ao aprendizado aprofundado de conceitos matemáticos fundamentais. Meu objetivo principal é ir além do uso de bibliotecas de alto nível e **implementar algoritmos e métodos de Álgebra Linear, Cálculo, Estatística e Probabilidade utilizando primariamente as bibliotecas `NumPy` e `math` (e Python puro quando aplicável).**
+Este repositório, **`mathematicals-playgrounds`**, é o meu espaço dedicado à exploração e ao aprendizado aprofundado de conceitos matemáticos fundamentais. Meu objetivo principal é ir além do uso de bibliotecas de alto nível e **implementar algoritmos e métodos de Modelagens Matemáticas, pesquisa operacional usando Cálculos, Estatísticas e Probabilidades na aplicação de modelos matemáticos com foco na resoluçaõp de problemas de negócios (William P. Fox, 2011).**
 
-É um "parque de diversões" numérico e computacional, onde a teoria matemática ganha vida através do código.
+É um "parque de diversões" numérico e computacional, onde a teoria e aplicação matemática ganha vida através do código.
 
 ## 💡 Motivação e Abordagem de Aprendizado
 
@@ -22,6 +22,7 @@ Acredito que o verdadeiro domínio de um conceito matemático reside na capacida
 * **Construir do Zero:** Compreender as complexidades e os detalhes de cada método, evitando o uso de "caixas pretas" em bibliotecas mais abstratas.
 * **Fortalecer Habilidades de Programação:** Aprimorar a lógica computacional, a otimização e a estruturação de código para resolver problemas matemáticos.
 * **Desenvolver Raciocínio Analítico:** Preparar-me para adaptar e criar soluções para desafios matemáticos complexos em diversas áreas.
+* **Foco em Aprendizado de modelos para o Trabalho:** O foco é adaptar o aprendizado de modelos de otimizações, regressões e etc.. para o dia a dia no trabalho como Analista de Dados.
 
 Este é um registro do meu progresso e das minhas descobertas nesta jornada de aprendizado ativo.
 
@@ -29,30 +30,23 @@ Este é um registro do meu progresso e das minhas descobertas nesta jornada de a
 
 O repositório está organizado por disciplinas matemáticas, e cada seção conterá problemas, exercícios de livros e implementações de conceitos.
 
-* **Álgebra Linear:**
-    * Vetores e Operações com Vetores
-    * Matrizes e Operações com Matrizes (Multiplicação, Transposição, Inversa, Determinante)
-    * Sistemas de Equações Lineares
-    * Espaços Vetoriais e Subespaços
-    * Autovalores e Autovetores
-    * Decomposições Matriciais (SVD, LU, QR - *implementações conceituais*)
-* **Cálculo:**
-    * Derivadas (Numéricas e Simbólicas Simples)
-    * Integrais (Numéricas)
-    * Gradientes e Otimização Simples
+* **Modelagem Matemática e Análise de Decisão:**
+    * O Processo de Modelagem
+    * Formulação de Problemas de Negócio
+    * Exemplos de Modelagem
+* **Tomada de Decisão Estocástica:**
+    * Probabilidade e Valor Esperado
+    * Árvores de Decisão
+    * Critérios de Decisão sob Risco e Incerteza
     * Séries e Sequências
-* **Estatística:**
-    * Estatística Descritiva (Média, Mediana, Moda, Desvio Padrão, Variância, Quartis, Percentis)
-    * Distribuições de Probabilidade (Normal, Binomial, Poisson, Exponencial - *geração de amostras e cálculo de PDFs/CDFs*)
-    * Teorema do Limite Central
-    * Intervalos de Confiança
-    * Testes de Hipóteses (t-test, Z-test, Qui-quadrado - *implementação manual*)
-* **Probabilidade:**
-    * Conceitos Fundamentais (Eventos, Espaços Amostrais, Axiomas da Probabilidade)
-    * Probabilidade Condicional e Teorema de Bayes
-    * Variáveis Aleatórias Discretas e Contínuas
-    * Esperança e Variância de Variáveis Aleatórias
-    * Simulações de Monte Carlo para problemas de probabilidade
+* **Otimização e Priorização:**
+    * Programação Linear, Inteira e Não Linear
+    * Método Simplex
+    * Otimização de Recursos
+* **Decisão com Múltiplos Atributos:**
+    * Análise de Envolvimento de Dados (DEA)
+    * Técnicas de Ponderação (AHP, TOPSIS)
+    * Classificação de Alternativas
 
 ## 🛠️ Tecnologias Utilizadas
 
@@ -87,6 +81,12 @@ Para explorar o conteúdo ou replicar as implementações:
 4.  **Navegue e Execute:** Explore os diretórios e execute os scripts ou notebooks Jupyter (`.py` ou `.ipynb`) para ver as implementações em ação.
 
 Sinta-se à vontade para abrir [Issues](https://github.com/leomeduna/mathematicals-playgrounds/issues) se tiver sugestões, dúvidas ou quiser discutir alguma implementação. Pull Requests com melhorias ou novas abordagens para os conceitos existentes também são bem-vindos!
+
+## 📚 Referência:
+
+Book: "Mathematical Modeling for Business Analytics, William P. Fox, 2018"
+
+
 
 ---
 
