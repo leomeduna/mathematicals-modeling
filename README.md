@@ -10,7 +10,7 @@
 
 ## 📚 Visão Geral
 
-Este repositório, **`mathematicals-playgrounds`**, é o meu espaço dedicado à exploração e ao aprendizado aprofundado de conceitos matemáticos fundamentais. Meu objetivo principal é ir além do uso de bibliotecas de alto nível e **implementar algoritmos e métodos de Modelagens Matemáticas, pesquisa operacional usando Cálculos, Estatísticas e Probabilidades na aplicação de modelos matemáticos com foco na resoluçaõp de problemas de negócios (William P. Fox, 2011).**
+Este repositório, **`mathematicals-playgrounds`**, é o meu espaço dedicado à exploração e ao aprendizado aprofundado de conceitos matemáticos fundamentais. Meu objetivo principal é ir além do uso de bibliotecas de alto nível e **implementar algoritmos e métodos de Modelagens Matemáticas, pesquisa operacional simulando cenários, revolvendo problemas de regressões e otimizações e criando modelos estruturados, bem como traduzir problemas de negócios em tomadas de decisões eficientes com a aplicação de modelos matemáticos com foco na resolução de problemas de negócios baseados no livro: "Mathematical Modeling for Business Analytics" do Autor William P. Fox, 2011.**
 
 É um "parque de diversões" numérico e computacional, onde a teoria e aplicação matemática ganha vida através do código.
 
@@ -38,7 +38,6 @@ O repositório está organizado por disciplinas matemáticas, e cada seção con
     * Probabilidade e Valor Esperado
     * Árvores de Decisão
     * Critérios de Decisão sob Risco e Incerteza
-    * Séries e Sequências
 * **Otimização e Priorização:**
     * Programação Linear, Inteira e Não Linear
     * Método Simplex
@@ -47,6 +46,19 @@ O repositório está organizado por disciplinas matemáticas, e cada seção con
     * Análise de Envolvimento de Dados (DEA)
     * Técnicas de Ponderação (AHP, TOPSIS)
     * Classificação de Alternativas
+* **Teoria dos Jogos:**
+    * Jogos de Soma Zero e Conflito Parcial
+    * Modelagem de Interações Estratégicas
+* **Modelos de Regressão:**
+    * Regressão Linear, Múltipla e Não Linear
+* **Sistemas Dinâmicos Discretos:**
+    * Modelagem de Crescimento e Mudança
+    * omportamento de Longo Prazo de Sistemas
+* **Modelagem de Simulação:**
+    * Simulação de Monte Carlo
+    * Simulação de Comportamento Probabilístico
+    * Modelos de Filas
+
 
 ## 🛠️ Tecnologias Utilizadas
 
@@ -85,7 +97,6 @@ Sinta-se à vontade para abrir [Issues](https://github.com/leomeduna/mathematica
 ## 📚 Referência:
 
 Book: "Mathematical Modeling for Business Analytics, William P. Fox, 2018"
-
 
 
 ---
