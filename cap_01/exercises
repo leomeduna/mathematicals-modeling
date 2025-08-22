@@ -1,0 +1,74 @@
+## Os 9 "steps" do processo de modelagem matemática:
+
+ **Step 1: Understand the decision to be made or the question asked.** 
+ **Step 2: Make simplifying assumptions.**
+ **Step 3: Define all variables.**
+ **Step 4: Construct a model.**
+ **Step 5: Solve and interpret the model. Test the model. Do the results pass the common sense test?**
+ **Step 6: Verify the model. Validate the model, if possible**
+ **Step 7: Identify the strenghts and weaknesses as a reflection of your model.**
+ **Step 8: Sensitivity analysis and/or model testing**
+ **Step 9: Implement and maintain the model for future use if it passes the common sense test**
+
+# Exercícios:
+
+Using Steps 1–3 of the modeling process, identify a problem from scenario
+1–11 that you could study. There are no right or wrong answers, just measures
+of difficulty.
+
+1. The population of deer in your community.
+    Step 1: 
+        A questão a ser respondida é: Qual a população de veados na minha comunidade (cidade)
+    Step 2: 
+        Podemos assumir que grande parte está nos interiores, sendo região metropolitana, a probabilidade de achar algum veado em Curitiba é baixa (uma população pequena)
+    Step 3: 
+        Total de Veados da comunidade, Região localizada, Total de veados em Curitiba
+
+2. A new outdoor shopping mall is being constructed. How should you
+design the illumination of the parking lot?
+    Step 1: 
+        Qual é o número mínimo de pontos de luz e suas posições ideais para garantir que a iluminação de todo o estacionamento esteja acima de um nível mínimo de segurança e visibilidade?
+    Step 2: 
+        Podemos assumir que cada ponto de luz cobre uma área circular (ou outra forma geométrica) com um raio de alcance uniforme.
+        A intensidade da luz é uniforme dentro dessa área de cobertura.
+        O estacionamento pode ser representado como um plano 2D ou uma grade de coordenadas.
+        Não há obstáculos (como grandes árvores) que bloqueiem a luz.
+    Step 3: 
+        xi​,yi​: Coordenadas de cada ponto de luz i a ser instalado.
+        Ai​: Área de cobertura de cada ponto de luz i.
+        P: Conjunto de todos os possíveis pontos de luz no estacionamento.
+        C: Conjunto de coordenadas que representam a superfície total do estacionamento.
+        Nluzes​: Número total de luzes instaladas (essa é a variável que queremos minimizar).
+
+3. A farmer wants a successful season with his crops. He thinks that
+this is accomplished by growing a lot of anything as long as he uses
+all his land.
+    Step 1: 
+        Como o fazendeiro pode maximizar o sucesso da temporada, escolhendo quais culturas plantar e quanto de cada uma, dado que ele deve usar toda a sua terra?  
+    Step 2: 
+        O "sucesso" pode ser medido pelo lucro total ao final da temporada.
+        O rendimento (kg/m²) e o preço de venda (R$/kg) de cada cultivo são constantes e conhecidos.
+        O custo de produção por metro quadrado é constante para cada cultura.
+        Não há limitações de recursos como água ou mão de obra (ou, se houver, elas seriam adicionadas como restrições).
+    Step 3:
+        xi​: A área (em m²) dedicada ao cultivo i (ex: milho, soja, trigo). Essa é a variável de decisão.        
+        Li​: O lucro por metro quadrado do cultivo i.
+        Ri​: O rendimento por metro quadrado do cultivo i.
+        Ni​: O custo por metro quadrado do cultivo i.
+        Atotal​: A área total de terra disponível para o fazendeiro.
+        
+
+4. Ford Motor Company bought Volvo. Are Volvos still top quality cars?
+    Step 1: 
+        Os carros da Volvo ainda são conhecidos por serem carros de qualidade, que trazem segurança, conforto e desempenho a fim de maximizar os ganhos da Ford?   
+    Step 2: 
+      Qualidade é Mensurável: A qualidade pode ser medida por um conjunto de indicadores quantitativos (por exemplo, custo por quilômetro, tempo médio entre falhas, número de recalls).
+      Dados Históricos: Temos acesso a dados de veículos Volvo antes da aquisição (e.g., de 1990–1998) e após a aquisição (e.g., de 2000–2008).
+      Consistência: As condições de uso, manutenção e tipo de condução são, em média, as mesmas para os dois períodos.
+      Fatores Externos: Mudanças na economia ou em tecnologias de produção que afetariam a indústria inteira não são o foco principal.  
+    Step 3:
+        Cpq​: Custo por Quilômetro (CPK), que engloba combustível, manutenção e seguros.
+        Tmrf​: Tempo Médio Entre Falhas (ou reparos), uma métrica de confiabilidade.
+        Qlitro​: Quilometragem por Litro, que mede a eficiência do combustível.
+        Nrecalls​: Número de Recalls por modelo por ano.
+        Eaquisicao​: Indicador Binário que representa o período (0 para antes da aquisição, 1 para após a aquisição).
